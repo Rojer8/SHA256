@@ -1,0 +1,12 @@
+[package]
+name = "SHA256"
+version = "0.1.0"
+authors = ["Rojer8 <kleners98@yandex.ru>"]
+edition = "2018"
+include = ["src/**/*", "Cargo.toml"]
+
+[dependencies]
+
+[[bin]]
+name = "SHA256"
+path = "main.rs"
